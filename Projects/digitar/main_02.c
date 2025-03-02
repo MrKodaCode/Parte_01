@@ -11,5 +11,6 @@ int main()
 
     printf("Digitado = %d", test);
 
+    system("pause");
     return 0;
 }
