@@ -2,26 +2,23 @@
 #include <stdlib.h>
 #include <windows.h>
 
-
 int main()
 {
-    //Calcular o valor Fatorial
+    // Ccontagem regressiva
 
     int num;
     int i;
-    long long result = 1;
 
     printf("Escreva algum numero: ");
     scanf("%d", &num);
 
-    for (i = 1; i <= num; i++)
+    for (i = num; i >= 0; i--)
     {
-        result *= i;
 
-        printf("%d * %d = %d \n", num, i, result);
+        printf("%d \n", i);
     }
-
-    
 
     return 0;
 }
+
+
